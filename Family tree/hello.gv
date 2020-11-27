@@ -1,0 +1,34 @@
+digraph g {
+	"Queen Victoria" [color=red]
+	Victoria [color=blue]
+	"Queen Victoria" -> Victoria [color=blue]
+	"King Edward 7" [color=blue]
+	"Queen Victoria" -> "King Edward 7" [color=blue]
+	Alice [color=blue]
+	"Queen Victoria" -> Alice [color=blue]
+	Helena [color=blue]
+	"Queen Victoria" -> Helena [color=blue]
+	Alfred [color=blue]
+	"Queen Victoria" -> Alfred [color=blue]
+	"King Edward 7" -> "King George 5" [label=Royal]
+	"King George 5" -> "King George 6" [label=Royal]
+	"King George 6" -> "Elizabeth 2" [label=Royal]
+	Alice -> "Princess Victoria"
+	"Lord Louis"
+	"Princess Victoria" -> "Lord Louis"
+	"Princess Alice"
+	"Princess Victoria" -> "Princess Alice"
+	"Princess Alice" -> "Philip Duke of Edinburgh"
+	Charles
+	"Elizabeth 2" -> Charles
+	"Philip Duke of Edinburgh" -> Charles
+	Anne
+	"Elizabeth 2" -> Anne
+	"Philip Duke of Edinburgh" -> Anne
+	"Prince Andrew"
+	"Elizabeth 2" -> "Prince Andrew"
+	"Philip Duke of Edinburgh" -> "Prince Andrew"
+	"Prince Edward"
+	"Elizabeth 2" -> "Prince Edward"
+	"Philip Duke of Edinburgh" -> "Prince Edward"
+}
